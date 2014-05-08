@@ -1,6 +1,13 @@
 Generic RESTful API Server
 ==========================
-Python 으로 범용의 RESTful API 서버를 구현 해봄.
+
+Python 으로 범용의 RESTful API 서버를 구현 해봄. Flask 와 Django 를 사용하여 구현 하였음
+
+
+알려진 이슈
+===========
+
+HTTP Response code 전달에 이슈가 있어서 현재 Django 의 경우 Error code 전달이 애매한 상황임.
 
 
 설치
@@ -90,3 +97,9 @@ urlpatterns = patterns('',
 ==========
 
 현재 테스트 API로 echo 가 있음. params 아래에 응답을 돌려주도록 되어 있음
+
+
+라이센스
+========
+
+MIT license.
